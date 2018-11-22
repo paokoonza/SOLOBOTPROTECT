@@ -1,29 +1,11 @@
-#SELFBOT PYHON3
-------
-- `apt update`
-- `apt upgrade`
-- `apt install git`
-- `apt install python3-pip`
-- `pip3 install rsa`
-- `pip3 install thrift==0.11.0`
-- `pip3 install requests`
-- `pip3 install bs4`
-- `pip3 install gtts`
-- `pip3 install pytz`
-- `pip3 install humanfriendly`
-- `pip3 install googletrans`
-- `git clone https://github.com/gyevha2/Gie`
-
-- 'Cara Run Bot'
-- Ketik -> `cd Gye`
-- Ketik -> `python3 gi4.py`
-- `Jangan Lupa Kalian isi Dulu Token nya`
-- `Edit via nano Atau storage`
-
-- 'untuk Run Via storage'
-- `cd storage`
-- `cd downloads`
-- `cd Gye`
-- `python3 gi4.py`
-
-- thank id Line me ( aisyagye )
+![thrift](https://images-eu.ssl-images-amazon.com/images/I/61SA0Wq1P1L.png "thrift")
+## thrift==0.11.0 update mod prankbots
+[![PrankBots](https://img.fireden.net/v/image/1461/72/1461725093324.gif "Prankbots")](https://bit.ly/2xbVxlh) [![tambahkan teman](http://agelessthailand.weebly.com/uploads/7/4/3/5/74358591/9592585_orig.gif "prankbot")](https://bit.ly/2xbVxlh)
+- change import module in folder thrift
+```
+from thrift.unverting import *
+from thrift.TMultiplexedProcessor import *
+from thrift.TSerialization import *
+from thrift.TRecursive import *
+from thrift import transport, protocol, server
+```
